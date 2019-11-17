@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#5AFEFEFE</color>
+    <color name="colorWrite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="themeColor">#666</color>
+    <color name="transparent_color">#00000000</color>
+<!--    <color name="drawer_open_color">#00000000</color>-->
+
+
+    <color name="barPrimaryDark">#FFAFC9</color>
+    <color name="nav_bar_text_color">#666666</color>
+    <color name="nav_bar_text_select_color">#FB7299</color>
+    <color name="nav_click_bg_color">#ddd</color>
+    <color name="search_bar_color">#ddd</color>
+    <color name="recommend_bg_color">#eee</color>
+
+
+    <color name="movie_tag_mini_color">#aaaaaa</color>
+
+    <color name="head_nav_bg_color">#11000000</color>
+
+
+<!--    xiong-->
+    <color name="colorGray">#BBBBBB</color>
+    <color name="colorLightGray">#EEEEEE</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colortouming">#00000000</color>
+</resources>

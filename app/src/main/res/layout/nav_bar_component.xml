@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:drawableTop="@drawable/ic_generate"
+    android:text="@string/component_text"
+    android:textAlignment="center"
+    android:textColor="@color/nav_bar_text_color"
+    android:textSize="@dimen/bottom_nav_text_size"
+    android:background="@drawable/nav_bar_click_ripple"
+    android:layout_weight="1"
+    android:paddingTop="@dimen/nav_bar_padding_size"
+    android:paddingBottom="@dimen/nav_bar_padding_size" />

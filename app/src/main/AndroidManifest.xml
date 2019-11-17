@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.bilibili">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@layout/activity_start_page"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="UnusedAttribute">
+        <activity
+            android:name=".activitys.StartPageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"/>
+
+
+        <activity android:name="com.example.bilibiliproject.MemOfPurchase.CommodityDetailActivity" />
+        <activity android:name="com.example.bilibiliproject.Items.InfomationItemActivity" />
+        <activity android:name="com.example.bilibiliproject.Items.CommodityItemActivity" />
+        <activity android:name="com.example.bilibiliproject.Items.PrettyPictureItemActivity" />
+        <activity android:name="com.example.bilibiliproject.Items.RecommandItemActivity" />
+        <activity android:name="com.example.bilibiliproject.MemOfPurchase.MainActivity" />
+    </application>
+
+</manifest>

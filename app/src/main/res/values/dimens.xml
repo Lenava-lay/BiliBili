@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_nav_text_size">10sp</dimen>
+    <dimen name="bar_font_size">14sp</dimen>
+    <dimen name="nav_bar_padding_size">3dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="my_action_bar_margin_top">5dp</dimen>
+    <dimen name="bar_view_to_view_distance">15dp</dimen>
+    <dimen name="btn_to_layout_margin">-1dp</dimen>
+    <dimen name="action_bar_main_height">36dp</dimen>
+    <dimen name="search_show_box_width">150dp</dimen>
+    <dimen name="search_show_box_padding_left">12dp</dimen>
+    <dimen name="head_page_mini_nav_font_size">16sp</dimen>
+    <dimen name="nav_tabs_line_height">3dp</dimen>
+    <dimen name="movie_click_mini_font_size">12sp</dimen>
+    <dimen name="movie_click_view_distance">5dp</dimen>
+    <dimen name="movie_click_icon_height">10dp</dimen>
+    <dimen name="movie_click_icon_width">12dp</dimen>
+    <dimen name="movie_image_radius">5dp</dimen>
+    <dimen name="movie_click_more_icon_size">18dp</dimen>
+</resources>

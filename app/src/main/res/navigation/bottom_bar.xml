@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_bar_navigation"
+    app:startDestination="@id/headPageFragment">
+
+    <fragment
+        android:id="@+id/headPageFragment"
+        android:name="com.example.bilibili.mainviews.headpage.HeadPageFragment"
+        android:label="head_page_fragment"
+        tools:layout="@layout/head_page_fragment" />
+
+    <fragment
+        android:id="@+id/channelFragment"
+        android:name="com.example.bilibili.mainviews.channel.ChannelFragment"
+        android:label="channel_fragment"
+        tools:layout="@layout/channel_fragment" />
+
+    <fragment
+        android:id="@+id/shoppingFragment"
+        android:name="com.example.bilibili.mainviews.shopping.ShoppingFragment"
+        android:label="shopping_fragment"
+        tools:layout="@layout/shopping_fragment" />
+    <fragment
+        android:id="@+id/mineFragment"
+        android:name="com.example.bilibili.mainviews.mine.MineFragment"
+        android:label="mine_fragment"
+        tools:layout="@layout/mine_fragment" />
+</navigation>

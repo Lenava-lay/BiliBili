@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@color/colorLightGray"
+            android:text="适合年龄"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/textview_commodityattr"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorLightGray"
+            android:layout_marginLeft="1dp"
+            android:paddingTop="5dp"
+            android:paddingLeft="10dp"
+            android:text="14岁以上"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/textview_attrdetail"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/advertisement_box_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/advertisement_big_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="重庆车展送免费门票啦！车友大福利了" />
+
+    <ImageView
+        android:id="@+id/advertisement_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/atest"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/advertisement_tag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广告"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/advertisement_tag_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="立即领取免费门票"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/advertisement_tag_more_image"
+            android:layout_width="@dimen/movie_click_more_icon_size"
+            android:layout_height="@dimen/movie_click_more_icon_size"
+            app:srcCompat="@drawable/ic_movie_click_mini_more"/>
+
+
+    </LinearLayout>
+</LinearLayout>

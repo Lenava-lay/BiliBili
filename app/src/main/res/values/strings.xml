@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">BiliBili</string>
+    <string name="text_generate">Generate</string>
+    <string name="text_channel">Channel</string>
+    <string name="ic_generate">ic_generate</string>
+    <string name="ic_channel">ic_channel</string>
+    <string name="ic_shopping">ic_shopping</string>
+    <string name="ic_self">ic_self</string>
+    <string name="text_shopping">Store</string>
+    <string name="text_self">Mine</string>
+
+
+    <string name="component_text">Component Text</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_img">splash_img</string>
+    <string name="splash_time">splash_time</string>
+    <string name="title_activity_personal_drawer">PersonalDrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="text_history">History</string>
+    <string name="text_collection">Collection</string>
+    <string name="text_later">Later See</string>
+    <string name="text_download">Download</string>
+    <string name="user_name">user_name</string>
+    <string name="bili_money_label">$B: </string>
+    <string name="bili_money_value">50.0</string>
+    <string name="coin_label">Coin: </string>
+    <string name="coin_value">284.0</string>
+
+    <string name="recommend_label">Recommend</string>
+    <string name="popular_label">Popular</string>
+    <string name="chasing_label">Chasing</string>
+    <string name="movie_label">Movie</string>
+    <string name="birth_label">70th</string>
+
+    <string name="peisong_detail">运费说明: 不满足包邮条件的订单，江浙沪地区10元运费，其他地区15元，可配送区域为中国大陆地区(除特殊偏远地区)，收件地区在此之外的区域请勿下单</string>
+    <string name="rule1">1、在签收快递时，请本人亲自在不拆封商品包装的情况下，在快递前当面验货，确认无误后在签收。</string>
+</resources>

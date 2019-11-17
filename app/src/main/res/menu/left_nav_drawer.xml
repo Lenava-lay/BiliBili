@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mainViewFragment"
+            android:icon="@drawable/ic_generate"
+            android:title="@string/text_generate" />
+        <item
+            android:id="@+id/historyFragment"
+            android:icon="@drawable/ic_history_record"
+            android:title="@string/text_history"/>
+        <item
+            android:id="@+id/downloadFragment"
+            android:icon="@drawable/ic_download"
+            android:title="@string/text_download"/>
+        <item
+            android:id="@+id/collectionFragment"
+            android:icon="@drawable/ic_collection"
+            android:title="@string/text_collection"/>
+        <item
+            android:id="@+id/laterFragment"
+            android:icon="@drawable/ic_later"
+            android:title="@string/text_later"/>
+
+    </group>
+
+</menu>

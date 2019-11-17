@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainviews.headpage.HeadPageFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWrite"
+        >
+
+        <LinearLayout
+            android:id="@+id/head_page_nav_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/my_action_bar_margin_top"
+            android:orientation="horizontal"
+            app:layout_scrollFlags="scroll">
+
+            <include layout="@layout/btn_icon_layout" />
+
+
+            <RelativeLayout
+                android:id="@+id/search_show_box"
+                android:layout_width="@dimen/search_show_box_width"
+                android:layout_height="@dimen/action_bar_main_height"
+                android:layout_marginStart="@dimen/bar_view_to_view_distance"
+                android:layout_marginLeft="@dimen/bar_view_to_view_distance"
+                android:background="@drawable/search_bar_bg"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/search_show_box_padding_left"
+                android:paddingLeft="@dimen/search_show_box_padding_left">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_search_mini" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/bar_view_to_view_distance"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_game" />
+
+                <ImageView
+                    android:layout_width="26dp"
+                    android:layout_height="21dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_download" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="27dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_message" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/head_page_tabs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/nav_bar_text_select_color"
+            app:tabIndicatorHeight="@dimen/nav_tabs_line_height"
+            app:tabMode="scrollable"
+            app:tabRippleColor="@color/nav_click_bg_color"
+            app:tabSelectedTextColor="@color/nav_bar_text_select_color"
+            app:tabTextAppearance="@style/tab_text_style" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/head_page_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

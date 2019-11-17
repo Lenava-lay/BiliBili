@@ -1,0 +1,74 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<!--     Base application theme.-->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/nav_bar_text_select_color</item>
+    <!--        <item name="colorPrimaryDark">@color/barPrimaryDark</item>-->
+            <item name="colorPrimaryDark">#F59999</item>
+            <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+            <item name="colorAccent">@color/nav_bar_text_color</item>
+        </style>
+
+    <style name="TabLayoutTextSize">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+<!--    刘汪-->
+<!--    <style name="AppTheme.NoActionBar">-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--        <item name="colorPrimaryDark">#FFFFFF</item>-->
+<!--        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>-->
+<!--        &lt;!&ndash;        <item name="android:textColor">@color/nav_bar_text_color</item>&ndash;&gt;-->
+<!--    </style>-->
+
+
+<!--    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/colorPrimary</item>-->
+<!--        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+<!--        <item name="colorAccent">@color/colorAccent</item>-->
+
+<!--        &lt;!&ndash;设置无标题&ndash;&gt;-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="windowNoTitle">true</item>-->
+<!--    </style>-->
+
+
+    <style name="bottom_normal_text">
+        <item name="android:textColor">@color/nav_bar_text_color</item>
+        <item name="android:textSize">@dimen/bar_font_size</item>
+    </style>
+
+    <style name="bottom_select_text">
+        <item name="android:textColor">@color/nav_bar_text_select_color</item>
+        <item name="android:textSize">@dimen/bar_font_size</item>
+    </style>
+
+
+    <style name="nav_bar_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/nav_bar_padding_size</item>
+        <item name="android:paddingTop">@dimen/nav_bar_padding_size</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/nav_bar_click_ripple</item>
+        <item name="android:textAlignment" tools:targetApi="jelly_bean_mr1">center</item>
+        <item name="android:textSize">@dimen/bottom_nav_text_size</item>
+    </style>
+
+    <style name="tab_text_style">
+
+        <item name="android:textColor">@color/nav_bar_text_color</item>
+        <item name="android:textSize">@dimen/head_page_mini_nav_font_size</item>
+
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

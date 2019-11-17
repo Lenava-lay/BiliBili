@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/movie_box_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/movie_mini_bg_shape"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/movie_image_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center">
+
+        <com.shehuan.niv.NiceImageView
+            android:id="@+id/movie_pic"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_hotbitmapgg_avatar"
+            app:corner_top_left_radius="@dimen/movie_image_radius"
+            app:corner_top_right_radius="@dimen/movie_image_radius" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/movie_click_icon"
+                android:layout_width="@dimen/movie_click_icon_width"
+                android:layout_height="@dimen/movie_click_icon_height"
+                android:layout_alignBaseline="@id/movie_click_num"
+                android:layout_marginLeft="@dimen/movie_click_view_distance"
+                android:layout_marginRight="@dimen/movie_click_view_distance"
+                android:baselineAlignBottom="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_play_click" />
+
+            <TextView
+                android:id="@+id/movie_click_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/movie_click_view_distance"
+                android:layout_toRightOf="@+id/movie_click_icon"
+                android:textColor="@color/colorWrite"
+                android:textSize="@dimen/movie_click_mini_font_size" />
+
+            <ImageView
+                android:id="@+id/movie_barrage_icon"
+                android:layout_width="@dimen/movie_click_icon_width"
+                android:layout_height="@dimen/movie_click_icon_height"
+                android:layout_alignBaseline="@id/movie_barrage_num"
+                android:layout_marginLeft="@dimen/movie_click_view_distance"
+                android:layout_marginRight="@dimen/movie_click_view_distance"
+                android:layout_toRightOf="@+id/movie_click_num"
+                android:baselineAlignBottom="true"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/ic_movie_barrage" />
+
+            <TextView
+                android:id="@+id/movie_barrage_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/movie_barrage_icon"
+                android:textAlignment="center"
+                android:textColor="@color/colorWrite"
+                android:textSize="@dimen/movie_click_mini_font_size" />
+
+            <TextView
+                android:id="@+id/movie_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/movie_click_view_distance"
+                android:textAlignment="center"
+                android:textColor="@color/colorWrite"
+                android:textSize="@dimen/movie_click_mini_font_size" />
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/movie_mini_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movie_image_container"
+        android:layout_margin="@dimen/movie_click_icon_height"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:minLines="2"
+        android:textColor="@color/colorBlack" />
+
+    <RelativeLayout
+        android:id="@+id/movie_mini_tag_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movie_mini_title"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/movie_click_icon_height">
+
+        <ImageView
+            android:id="@+id/movie_click_mini_more_icon"
+            android:layout_width="@dimen/movie_click_more_icon_size"
+            android:layout_height="@dimen/movie_click_more_icon_size"
+            android:layout_alignBottom="@id/movie_mini_tag"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:layout_marginRight="@dimen/movie_click_view_distance"
+            android:baselineAlignBottom="true"
+            app:srcCompat="@drawable/ic_movie_click_mini_more" />
+
+        <TextView
+            android:id="@+id/movie_mini_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/movie_click_icon_height"
+            android:layout_marginRight="@dimen/movie_click_icon_height"
+            android:layout_toLeftOf="@id/movie_click_mini_more_icon"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="@color/movie_tag_mini_color"
+            android:textSize="@dimen/movie_click_mini_font_size" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
