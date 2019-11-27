@@ -206,7 +206,7 @@
             android:text="遇到问题？"
             android:textSize="15sp"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="140dp"
+            android:layout_marginLeft="138dp"
             android:layout_marginRight="198dp"/>
         <TextView
             android:layout_width="match_parent"
